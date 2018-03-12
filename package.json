@@ -1,0 +1,18 @@
+{
+  "name": "rsq-sts-server",
+  "version": "1.0.0",
+  "description": "ali sts server",
+  "author": "Wallace Mao",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "express": "^4.14.1",
+    "chalk": "^2.0.1",
+    "ali-oss": "^4.10.1",
+    "co": "^4.6.0"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
