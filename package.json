@@ -4,7 +4,9 @@
   "description": "ali sts server",
   "author": "Wallace Mao",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "start": "node sts-server.js"
+  },
   "dependencies": {
     "express": "^4.14.1",
     "chalk": "^2.0.1",
