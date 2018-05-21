@@ -50,6 +50,10 @@ app.use(function(req, res, next) {
   next();
 });
 
+app.get('/check/alive', function(req, res) {
+   res.end("success")
+});
+
 app.get('/sts/:userId', function (req, res) {
   var userId = req.params.userId
   if (!userId) {
