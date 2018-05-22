@@ -50,8 +50,14 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/check/alive', function(req, res) {
-   res.end("success")
+//  根目录
+app.get('/', function(req, res) {
+    res.end('index')
+});
+
+//  存活检测
+app.get('/check', function(req, res) {
+   res.end('success')
 });
 
 app.get('/sts/:userId', function (req, res) {
